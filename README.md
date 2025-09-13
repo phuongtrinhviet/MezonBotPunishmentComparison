@@ -42,7 +42,7 @@ A Mezon bot that visualizes how your penalty metrics compare to company averages
 4. Edit the `.env` file and add your application token and Timesheet security code:
    ```
    APPLICATION_TOKEN=your_application_token_here
-   TIMESHEET_SECURITY_CODE=your_timesheet_security_code_here
+   TIMESHEET_SECURITY_CODE=12345678(stg)
    ```
 
 ### Running the Bot
@@ -78,7 +78,3 @@ The bot will respond with a visual comparison of your penalty metrics versus com
 - If you encounter API connection issues, verify your `TIMESHEET_SECURITY_CODE` is correct
 - Make sure the bot has proper permissions in the clan
 - Check the console logs for detailed error information
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
