@@ -196,7 +196,7 @@ async function main() {
       await user.sendDM({ t: 'hello DM' });
     }
 
-    if (event?.content?.t === "*comparefine") {
+    if (event?.content?.t === "*fine") {
       const channelFetch = await client.channels.fetch(event.channel_id);
       const messageFetch = await channelFetch.messages.fetch(event.message_id);
       
