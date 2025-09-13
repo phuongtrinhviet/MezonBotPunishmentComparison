@@ -1,22 +1,84 @@
-## Create your Mezon application
+# FineCompare Bot
 
-Visit the [Developers Portal](https://dev-developers.nccsoft.vn/) to create your application.
+A Mezon bot that visualizes how your penalty metrics compare to company averages. With a simple `*fine` command, users receive an easy-to-read chart showing their penalties versus company benchmarks.
 
-## Add bot to your clan
+## Features
 
-Use your install link in a browser to add your bot to your desired clan.
+- Visual comparison of penalty metrics using progress bars
+- Percentage-based analysis of different penalty categories
+- Automatic data retrieval from Timesheet API
+- Smart sorting of penalty types by relevance
+- Comprehensive error handling
 
-## Installation
+## Local Setup
+
+### Prerequisites
+
+- Node.js (v20 or higher)
+- Yarn or npm
+- Access to Mezon Developer Portal
+- Timesheet API access
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/phuongtrinhviet/MezonBotPunishmentComparison.git
+   cd MezonBotPunishmentComparison
+   ```
+
+2. Install dependencies:
+   ```bash
+   yarn
+   # or
+   npm install
+   ```
+
+3. Set up environment variables:
+   ```bash
+   cp .env.example .env
+   ```
+
+4. Edit the `.env` file and add your application token and Timesheet security code:
+   ```
+   APPLICATION_TOKEN=your_application_token_here
+   TIMESHEET_SECURITY_CODE=your_timesheet_security_code_here
+   ```
+
+### Running the Bot
 
 ```bash
-$ yarn
+# Start the bot in development mode
+yarn start
+# or
+npm run start
 ```
 
-Copy `.env.example` to `.env` and replace it with your application token.
+## Adding Bot to Your Clan
 
-## Running the app
+1. Visit the bot installation link: [https://mezon.ai/developers/bot/install/1957482694833082368](https://mezon.ai/developers/bot/install/1957482694833082368)
 
-```bash
-# development
-$ yarn start
+2. Select the clan where you want to add the bot
+
+3. Authorize the bot with the required permissions
+
+4. Once added, you can interact with the bot in any channel by typing `*fine`
+
+## Usage
+
+In any channel where the bot is present, type:
 ```
+*fine
+```
+
+The bot will respond with a visual comparison of your penalty metrics versus company averages.
+
+## Troubleshooting
+
+- If you encounter API connection issues, verify your `TIMESHEET_SECURITY_CODE` is correct
+- Make sure the bot has proper permissions in the clan
+- Check the console logs for detailed error information
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
