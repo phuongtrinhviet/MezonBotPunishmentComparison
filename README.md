@@ -66,7 +66,7 @@ npm run start
 
 ## Adding Bot to Your Clan
 
-1. Visit the bot installation link: [https://mezon.ai/developers/bot/install/1957482694833082368](https://mezon.ai/developers/bot/install/your-bot-id)
+1. Visit the bot installation link: [https://mezon.ai/developers/bot/install/your-bot-id](https://mezon.ai/developers/bot/install/your-bot-id)
 
 2. Select the clan where you want to add the bot
 
