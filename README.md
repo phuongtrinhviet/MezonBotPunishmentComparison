@@ -19,6 +19,16 @@ A Mezon bot that visualizes how your penalty metrics compare to company averages
 - Access to Mezon Developer Portal
 - Timesheet API access
 
+### Creating a Bot on Mezon
+
+1. Visit the Mezon Developer Portal: [https://mezon.ai/developers/applications](https://mezon.ai/developers/applications)
+
+2. Click on "New Application or Bot" button
+
+3. Fill in the required information
+
+4. Copy your bot token (this will be used as your APPLICATION_TOKEN)
+
 ### Installation
 
 1. Clone this repository:
@@ -56,7 +66,7 @@ npm run start
 
 ## Adding Bot to Your Clan
 
-1. Visit the bot installation link: [https://mezon.ai/developers/bot/install/1957482694833082368](https://mezon.ai/developers/bot/install/1957482694833082368)
+1. Visit the bot installation link: [https://mezon.ai/developers/bot/install/1957482694833082368](https://mezon.ai/developers/bot/install/your-bot-id)
 
 2. Select the clan where you want to add the bot
 
